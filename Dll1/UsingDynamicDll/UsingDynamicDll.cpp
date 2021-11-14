@@ -31,11 +31,11 @@ DWORD GetProcessIdByName(const char* processName)
 
 int main()
 {
-    std::string oldString = "world";
+    std::string oldString = "Hello world";
     std::string oldString1 = "Hello world";
-    std::string newString = "Hi Danik";
+    std::string newString = "Helo Danik";
     std::cout << "Start \"oldString\" value: " << oldString1 << std::endl;
-    HINSTANCE hlib = LoadLibrary("c:\Downloads\Dll1.dll");
+    HINSTANCE hlib = LoadLibrary("C:\Downloads\Dll1.dll");
     replaceMemoryFunc replaceMemory = NULL;
     int result = -1;
 

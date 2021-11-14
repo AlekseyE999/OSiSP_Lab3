@@ -38,7 +38,7 @@ BOOL APIENTRY DllMain(HMODULE hModule,
     {
     case DLL_PROCESS_ATTACH:
     case DLL_THREAD_ATTACH:
-        ReplaceString(GetProcessIdByName("ProcessToInjectInto.exe"), "Hello World!", "Hello dddsdd");
+        ReplaceString(GetProcessIdByName("ProcessToInjectInto.exe"), "Hello World!", "Hi Danik");
         break;
     case DLL_THREAD_DETACH:
     case DLL_PROCESS_DETACH:

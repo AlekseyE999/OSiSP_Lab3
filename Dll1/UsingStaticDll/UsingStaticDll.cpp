@@ -30,9 +30,9 @@ DWORD GetProcessIdByName(const char* processName)
 
 int main()
 {
-	std::string oldString = "Hello";
-	std::string oldString1 = "world";
-	std::string newString = "Hi danik";
+	std::string oldString = "Hello world";
+	std::string oldString1 = "Hello world";
+	std::string newString = "Helo danik";
 	std::cout << "Start \"oldString\" value: " << oldString1 << std::endl;
 	ReplaceString(GetProcessIdByName("UsingStaticDll.exe"), oldString.c_str(), newString.c_str());
 	std::cout << "End \"oldString\" value: " << oldString1 << std::endl;
